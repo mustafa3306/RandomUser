@@ -1,1 +1,1 @@
-![Random User App](random-user-app.gif)
+# "http://mustafa3306.github.io/RandomUser
