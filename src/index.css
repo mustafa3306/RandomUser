@@ -46,6 +46,7 @@ Variables
   --max-width: 1170px;
   --fixed-width: 620px;
 }
+
 /*
 =============== 
 Global Styles
@@ -67,6 +68,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
 p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
@@ -76,6 +78,7 @@ p {
   body {
     font-size: 1rem;
   }
+
   h1,
   h2,
   h3,
@@ -111,6 +114,7 @@ p {
 .block {
   min-height: 40vh;
 }
+
 .bcg-orange {
   background: var(--clr-orange-cw);
   text-align: center;
@@ -142,6 +146,7 @@ p {
   border-top-right-radius: var(--radius);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
+
 .container img {
   width: 150px;
   height: 150px;
@@ -158,6 +163,7 @@ p {
   font-size: 18px;
   margin-bottom: 0;
 }
+
 .user-value {
   color: var(--clr-grey-1);
   font-size: 28px;
@@ -168,6 +174,7 @@ p {
   grid-template-columns: repeat(6, 1fr);
   justify-content: center;
 }
+
 .icon {
   background: transparent;
   border: transparent;
@@ -176,6 +183,7 @@ p {
   color: var(--clr-grey-5);
   transition: var(--transition);
 }
+
 .icon:hover {
   color: var(--clr-primary-5);
 }
@@ -218,3 +226,16 @@ p {
 .body-tr {
   height: 40px;
 }
+
+.page-loading {
+  background-color: chartreuse;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .page-loading h1 {
+  margin: auto;
+} */
