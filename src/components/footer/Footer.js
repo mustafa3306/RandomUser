@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-div">
       <a
-        href="https://github.com/mustafa3306"
+        href="https://github.com/mustafa3306?tab=repositories"
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
